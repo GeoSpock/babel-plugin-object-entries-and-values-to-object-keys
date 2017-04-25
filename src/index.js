@@ -13,7 +13,7 @@ export default function({types: t}){
                         let key = t.identifier('key');
                         let value = t.memberExpression(
                             parameter,
-                            t.identifier('key'),
+                            key,
                             true
                         );
 
